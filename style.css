@@ -1,30 +1,226 @@
 
+*{
+    font-family:'Nunito', sans-serif;
+}
+
 body {
-   background: url("http://ramflisa.url.ph/Bilder/binary.jpg");
-   background-size:cover;
-   background-color:black;
-   
+    background-color:#28223f;
+    overflow:hidden ;
 }
-textarea {
-   color:green;
-   background-color:black;
-   outline:none;
-   margin-left:25px;  
-   font-size:15px;
-   height:300px;
-   width:250px;
+
+.main{
+    width:70%;
+    height:440px;
+    background-color:#231e39;
+    position:relative ;
+    margin:auto ;
+    border-radius:10px;
+    top:120px;
+    border:0px solid white;
+    box-shadow:0 0 6px  grey;
+    overflow:scroll ;
 }
-div {
-   height:200px;
-   width:250px;
+
+#pro{
+    width:110px;
+    height:110px;
+    border-radius:120px;
+    position:relative ;
+    top:20px;
+    border:5px solid lightseagreen;
+    animation:4s k linear infinite;
 }
-#header {
-   width:255px;
-   height:25px;
-   background-color:darkgrey;
-   margin-left:25px;
-   margin-top:30px;
-   border:1px solid black;
-   color:red;
-   font-size:20px;
+@keyframes k{
+    10%{
+        border:5px solid #e54;
+    }
+    20%{
+        border:5px solid #123456;
+    }
+    30%{
+        border:5px solid #yellow;
+    }
+    
+}
+
+#name{
+    color:white;
+    position:relative ;
+    top:-20px;
+    font-size:24px;
+    -webkit-text-stroke:0.2px deeppink;
+}
+
+
+#sum{
+    color:white;
+    position:relative ;
+    top:-30px;
+    font-size:15px;
+    -webkit-text-stroke:0.2px #000;
+}
+
+#html{
+    width:50px;
+    height:20px;
+    border:none;
+    color:white;
+    background-color:coral;
+    position:absolute ;
+    left:2vh;
+    outline:none;
+    font-size:10px;
+    top:8vh;
+}
+
+#follow{
+    width:120px;
+    height:35px;
+    border:1px solid white;
+    position:relative ;
+    top:-30px;
+    background-color:#e44;
+    outline:none;
+    color:#fff;
+    border-radius:3px;
+    font-size:17px;
+}
+
+footer{
+    width:100%;
+    height:90px;
+    background-color:#02000a;
+    top:79%;
+    position:absolute ;
+    border-radius:10px;
+}
+
+#text{
+    color:white;
+    font-size:20px;
+    left:3vh;
+    position:relative ;
+    top:1vh;
+}
+#css{
+    width:50px;
+    height:20px;
+    border:none;
+    color:white;
+    background-color:#0079b5;
+    position:absolute ;
+    left:10.5vh;
+    outline:none;
+    font-size:10px;
+    top:8vh;
+}
+
+#js{
+    width:auto ;
+    height:20px;
+    border:none;
+    color:white;
+    background-color:#f0db4f;
+    position:absolute ;
+    left:19vh;
+    outline:none;
+    font-size:10px;
+    top:8vh;
+}
+
+#fb{
+    width:auto ;
+    height:20px;
+    border:none;
+    color:white;
+    background-color:#ffa611;
+    position:absolute ;
+    left:29vh;
+    outline:none;
+    font-size:10px;
+    top:8vh;
+}
+#l{
+    color:white;
+    position:relative ;
+    left:-5vh;
+    top:5vh;
+}
+
+#l2{
+    position:relative ;
+    top:-1.3vh;
+    color:white;
+}
+
+#kk{
+    position:relative ;
+    font-size:50px;
+    top:-10vh;
+}
+
+#theme{
+    width:100px;
+    height:40px;
+    position:absolute ;
+    top:90vh;
+    outline:none;
+    background-color:mediumseagreen;
+    color:white;
+    border:none;
+    left:21vh;
+    transition:0.3s;
+}
+
+#theme_section{
+    width:60%;
+    height:60px;
+    background-color:white;
+    position:relative ;
+    margin:auto;
+    top:70vh;
+    transition:0.4s;
+}
+
+#pink{
+    width:30px;
+    height:30px;
+    background-color:#1c2e4a;
+    border-radius:40px;
+    position:absolute ;
+    left:3.5vh;
+    top:2vh;
+    border:3.5px solid #ececec;
+}
+
+#cyan{
+    width:30px;
+    height:30px;
+    background:linear-gradient(#daa520,#e5c064);
+    border-radius:40px;
+    position:absolute ;
+    left:10.5vh;
+    top:2vh;
+    border:3.5px solid #ececec;
+}
+#yell{
+    width:30px;
+    height:30px;
+    background-color:#fee227;
+    border-radius:40px;
+    position:absolute ;
+    left:17.8vh;
+    top:2vh;
+    border:3.5px solid #ececec;
+}
+
+#green{
+    width:30px;
+    height:30px;
+    background-color:mediumseagreen;
+    border-radius:40px;
+    position:absolute ;
+    left:25vh;
+    top:2vh;
+    border:3.5px solid #ececec;
 }
